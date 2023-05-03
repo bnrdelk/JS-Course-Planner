@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #9ec4c6;
+}
+.button-container {
+    background-color: #ffffff5f;
+    width: 65vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 30%;
+    padding: 80px 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.container2 {
+    background-color: #ffffff5f;
+    width: 65vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 70%;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+h1#h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #1b1664;
+  }
+  h5#h5 {
+    font-size: 15px;
+    margin-top: 30px;
+    color: #1b1664;
+    text-align: center;
+
+  }
+  h2 {
+    margin-bottom: 10px;
+    color: #2f2c39;
+  }
+
+  #back-button, #submit-button {
+    background-color: #91c0c8;
+    color: white;
+    font-size: 16px;
+    margin: 2px;
+    padding: 6px 10px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  #back-button:hover, #submit-button:hover {
+    background-color: #8fcae5;
+    color: #373743;
+  }
+
+  #delete-button {
+    background-color: #91c0c8;
+    color: white;
+    font-size: 16px;
+    margin: 2px;
+    padding: 6px 10px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  #delete-button:hover {
+    background-color: #8fcae5;
+    color: #373743;
+  }
+  #curriculumTableEl {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 10px;
+  }
+  
+  #curriculumTableEl th,
+  #curriculumTableEl td {
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  #my-plan-table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 10px;
+  }
+  
+  #my-plan-table th,
+  #my-plan-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: #1d4268;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #curriculumTableEl tr:nth-child(odd) {
+    background-color: #a4c4d5cc;
+  }
+  
+  #curriculumTableEl tr:hover {
+    background-color: #2e599f;
+  }
+  
+  #my-plan-table tr:nth-child(odd) {
+    background-color: #a4c4d5cc;
+  }
+  
+  #my-plan-table tr:hover {
+    background-color: #2a679d;
+  }
+  
+  .my-button {
+    background-color: #52788b;
+    color: white;
+    font-size: 13px;
+    margin: 2px;
+    padding: 3px 6px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .my-button:hover {
+    background-color: #8fcae5;
+    color: #1d2024;
+}
+  .plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .grade-button, .plan-button {
+    background-color: #91c0c8;
+    color: white;
+    font-size: 15px;
+    margin: 1px;
+    padding: 8px 12px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #grade1:hover, #grade2:hover, #grade3:hover, #grade4:hover, #myPlan:hover {
+    background-color: #122f48;
+    color: #aad6db;
+  }
+
+  .plan-button {
+    background-color: #91c0c8;
+    color: white;
+    font-size: 15px;
+    margin: 1px;
+    padding: 8px 12px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #aybulogo {
+    width: 160px;
+    height: 160px;
+    display: block; /* make the image a block element */
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+ 
+  select {
+    width: 40%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    border: #ffffff;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-size: 0.8rem; 
+    color: #3f1a1a;
+  }
+  
+  #change-style-btn, #change-style-btn2 {
+    background-color: #52788b;
+    color: white;
+    font-size: 15px;
+    margin-top: 3px;
+    padding: 10px 15px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #change-style-btn:hover, #change-style-btn2:hover {
+    background-color: #8fcae5;
+    color: #433737;
+  }
+  
+  #change-style-btn span, #change-style-btn2 span {
+    font-size: 30px;
+    vertical-align: middle;
+  }
+  

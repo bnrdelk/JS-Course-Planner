@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="icon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style2.css" id="my-stylesheet" />
+        <title>
+            AYBU Course Planner
+        </title>
+    </head>
+    
+    <body>
+      <button id="change-style-btn"><span>&#9786;</span></button>
+      <button id="change-style-btn2"><span>&#9787;</span></button>
+      
+      <div class="button-container">
+        <h1 id="h1">Course Planner</h1>
+        <div id="course-buttons"></div>
+        <div id="schedule"></div>
+        <button id="delete-button" style="display:none;" onclick="showCourseButtons()">Delete</button>
+        <button id="back-button" style="display:none;" onclick="showCourseButtons()">Back</button>
+        <button id="submit-button" style="display:none;" onclick="submitCourses()">Submit</button>
+      </div>
+
+    <div class="container2">
+      <div class="plan-container">
+        <button id="grade1" class="grade-button">1st Grade</button>
+        <button id="grade2" class="grade-button">2nd Grade</button>
+        <button id="grade3" class="grade-button">3rd Grade</button>
+        <button id="grade4" class="grade-button">4th Grade</button>
+        <button id="myPlan" class="plan-button">My Plan</button>
+      </div>
+      <h5 id="h5">Welcome to AYBU CENG Course Planner!
+    </h5>
+    <img src="logo.png" id="aybulogo" alt="description of your image">
+  <table id="my-plan-table"></table>
+  <table id="curriculumTableEl"></table>
+  
+  </div>
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>

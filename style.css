@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #c19b9b;
+}
+.button-container {
+    background-color: #ffffff5f;
+    width: 65vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 30%;
+    padding: 80px 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.container2 {
+    background-color: #ffffff5f;
+    width: 65vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 70%;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+h1#h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #754444;
+  }
+  h5#h5 {
+    font-size: 15px;
+    margin-top: 30px;
+    color: #754444;
+    text-align: center;
+
+  }
+  h2 {
+    margin-bottom: 10px;
+    color: #2f2c39;
+  }
+
+  #back-button, #submit-button {
+    background-color: #e58f8f;
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    padding: 6px 10px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  #back-button:hover, #submit-button:hover {
+    background-color: #e58f8f;
+    color: #d5cbcb;
+  }
+
+
+  #delete-button {
+    background-color: #e58f8f;
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    padding: 6px 10px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  #delete-button:hover {
+    background-color: #e58f8f;
+    color: #d5cbcb;
+  }
+
+  #curriculumTableEl {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 10px;
+  }
+  
+  #curriculumTableEl th,
+  #curriculumTableEl td {
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  #my-plan-table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 13px;
+  }
+  
+  #my-plan-table th,
+  #my-plan-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: #705b5b;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+  }
+  #my-plan-table tr:nth-child(even) {
+    background-color: #896464;
+  }
+  
+  #my-plan-table tr:hover {
+    background-color: #ecb4b4d0;
+  }
+  
+  .my-button {
+    background-color: #e58f8f;
+    color: white;
+    font-size: 13px;
+    margin: 2px;
+    padding: 3px 6px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .my-button:hover {
+    background-color: #824141;
+    color: #f5efef;
+  }
+
+  .plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .grade-button, .plan-button {
+    background-color: #e58f8f;
+    color: white;
+    font-size: 15px;
+    margin: 1px;
+    padding: 8px 12px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #grade1:hover, #grade2:hover, #grade3:hover, #grade4:hover, #myPlan:hover {
+    background-color: #824141;
+    color: #f5efef;
+  }
+
+  .plan-button {
+    background-color: #e58f8f;
+    color: white;
+    font-size: 15px;
+    margin: 1px;
+    padding: 8px 12px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #aybulogo {
+    width: 160px;
+    height: 160px;
+    display: block; /* make the image a block element */
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+  #change-style-btn, #change-style-btn2 {
+    background-color: #d1766a;
+    color: white;
+    font-size: 15px;
+    margin-top: 3px;
+    padding: 10px 15px;
+    border-width: 1px;
+    border: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #change-style-btn:hover, #change-style-btn2:hover {
+    background-color: #e5978f;
+    color: #433737;
+  }
+  
+  #change-style-btn span, #change-style-btn2 span {
+    font-size: 30px;
+    vertical-align: middle;
+  }
+  
